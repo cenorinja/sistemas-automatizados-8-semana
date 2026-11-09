@@ -1,0 +1,13 @@
+﻿tag;descricao;tipo;unidade;escala_ou_estados;qualidade;observacao
+LT_101;Nivel do reservatorio;REAL;%;0 a 100;GOOD/BAD/UNCERTAIN;Variavel principal da tendencia
+ALM_H;Limite alto de atencao;REAL;%;70;GOOD;Limite de referencia H
+ALM_HH;Limite alto-alto de alarme;REAL;%;90;GOOD;Limite de referencia HH
+P101_CMD_START;Comando de partida da bomba P-101;BOOL;;0/1;GOOD/BAD;Comando sujeito a permissivos
+P101_CMD_STOP;Comando de parada da bomba P-101;BOOL;;0/1;GOOD/BAD;Comando sujeito a confirmacao
+P101_STATUS;Estado da bomba P-101;BOOL;;"0=PARADA; 1=LIGADA";GOOD/BAD;Estado realimentado do equipamento
+COMM_PLC;Qualidade da comunicacao com CLP;ENUM;;GOOD/BAD/UNCERTAIN;GOOD/BAD;Em BAD bloquear comandos remotos
+MODE_LOCAL;Modo local selecionado;BOOL;;"0=REMOTO; 1=LOCAL";GOOD;Em LOCAL bloquear comandos remotos
+PERM_EMG_OK;Emergencia liberada;BOOL;;"0=NAO; 1=SIM";GOOD;Permissivo de seguranca
+PERM_MOTOR_OK;Protecao do motor liberada;BOOL;;"0=NAO; 1=SIM";GOOD;Permissivo de protecao
+PERM_LEVEL_OK;Nivel dentro da faixa permitida;BOOL;;"0=NAO; 1=SIM";GOOD;Limites devem ser definidos pelo processo
+PERM_P101_READY;Bomba disponivel;BOOL;;"0=NAO; 1=SIM";GOOD;Disponibilidade do equipamento
