@@ -1,0 +1,9 @@
+﻿ID;cenario;resultado_esperado;resultado_obtido;situacao;evidencia
+T01;Nivel 58% / GOOD;"Estado NORMAL; comandos habilitados";;A executar;capturas/T01_normal.png
+T02;Nivel 78% / H;Indicacao ATENCAO/H visivel;;A executar;capturas/T02_atencao.png
+T03;Nivel 92% / HH;Alarme HH destacado e listado;;A executar;capturas/T03_alarme_HH.png
+T04;COMM_PLC = BAD;"Valores marcados invalidos; comandos remotos bloqueados";;A executar;capturas/T04_comunicacao_ruim.png
+T05;Solicitar parada de P-101;Confirmacao especifica antes da execucao;;A executar;capturas/T05_confirmacao_parada.png
+T06;Operador tenta comando remoto em modo LOCAL;"Comando remoto negado; orientacao exibida";;A executar;capturas/T06_modo_local.png
+T07;Retorno a visao geral;Botao VOLTAR retorna a tela geral em um passo;;A executar;capturas/T07_navegacao.png
+T08;Qualidade de dado BAD/UNCERTAIN;Qualidade indicada por texto/icone, nao apenas por cor;;A executar;capturas/T08_qualidade_dado.png
